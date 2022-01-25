@@ -31,7 +31,7 @@ const crearContacto = (parentNode, contacto, db) =>{
 
     iconoBorrar.onclick = () =>{
         db.removeItem(contacto.id)
-        window.location.href = '/'
+        window.location.reload()
     }
 
     divContacto.appendChild(nombreContacto)
